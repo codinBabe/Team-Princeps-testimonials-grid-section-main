@@ -1,6 +1,6 @@
 # Testimonials-grid-section-main Repository
 Welcome to Testimonials-grid-section-main repository!
-This repository is meant for collaborating on one of Team Princeps group work.
+This repository is meant for collaborating on one of **Team Princeps** group work.
 
 ## Instructions
 Follow these steps to contribute to the project:
@@ -16,7 +16,7 @@ git clone <your-fork-url>
 ```
 
 ### Create a Branch: 
-Create a new branch with your name and your partner's name. Use the format *YourName*.
+Create a new branch with your name. Use the format *YourName*.
 For example: ***FaithDaniel***. You can create a new branch like this:
 
 ```bash
