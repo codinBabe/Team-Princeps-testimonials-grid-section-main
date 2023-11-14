@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/* main styling and grid layout */
+.container{
+    margin: 0 auto;
+    display: grid;
+    max-width: 1024px;
+    grid-template-areas:
+    'one one one two five'
+    'three four four four five';
+    gap: 2em;
+    padding: 8em;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+/* Attribution */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
