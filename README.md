@@ -1,6 +1,6 @@
 # Testimonials-grid-section-main Repository
-Welcome to the Jadoo Travels repository! This repository is meant for collaborating on one of Women Techsters Project.
-This is part of a larger assessment
+Welcome to Testimonials-grid-section-main repository!
+This repository is meant for collaborating on one of Team Princeps group work.
 
 ## Instructions
 Follow these steps to contribute to the project:
