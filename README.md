@@ -51,19 +51,19 @@ That's it! You've successfully contributed to the testimonials-grid-section-main
 Thank you for your work, and happy collaborating!
 
 ### Team pairing:
-# section one:
+### section one:
 - [Kafayat](https://github.com/Kazeem-Kafayat)
 - [Sonia](https://github.com/soniachinwe)
-# section two
+### section two
 - [Oluwatoyin](https://github.com/codinBabe)
-# section three
+### section three
 - [Victoria]()
 - [Oluwatomisin](https://github.com/ugegbe-oyibo)
-# section four
+### section four
 - [Menna](https://github.com/mennarihan5)
-# section five
+### section five
 - [Kareen](https://github.com/Reenatechie)
 - [Christina]()
-- We will all fix the responsiveness together
+### We will all fix the responsiveness together
 
 If you have any questions or need further assistance, feel free to reach out to the Team Lead [@codinBabe](https://github.com/codinBabe).
