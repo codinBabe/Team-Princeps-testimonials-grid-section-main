@@ -8,13 +8,14 @@ body{
 /* main styling and grid layout */
 .container{
     margin: 0 auto;
-    display: grid;
     max-width: 1024px;
+    display: grid;
     grid-template-areas:
-    'one one one two five'
-    'three four four four five';
+    'one one two five'
+    'three four four five';
+    grid-auto-columns: 1fr;
     gap: 2em;
-    padding: 8em;
+    padding: 2em;
 }
 .one {
   grid-area: one;
