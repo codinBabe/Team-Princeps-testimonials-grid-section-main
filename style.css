@@ -40,7 +40,7 @@ body{
   background-color: var(--White);
   border-radius: 10px;
   padding: 25px 20px;
-  width: 90%;
+  width: 93%;
 }
 .three .three-info {
   display: flex;
@@ -48,7 +48,7 @@ body{
   font-size: 13px;
 }
 .three .three-info .three-img {
-  width: 40px;
+  width: 35px;
 }
 .three .three-info .three-img img {
   width: 100%;
@@ -61,22 +61,22 @@ body{
 }
 .three .three-info .three-titles .three-title1 {
   color: var(--dark-gray);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0;
 }
 .three .three-info .three-titles .three-title2 {
   color: var(--Light-gray);
-  font-size: 14px;
-  margin: 0;
+  font-size: 16px;
+  margin: 2% 0;
 }
 .three .three-text .three-text1 {
   color: var(--dark-gray);
-  font-size: 17px;
+  font-size: 22px;
 }
 .three .three-text .three-text2 {
   color: var(--medium-gray);
-  font-size: 15px;
+  font-size: 14px;
 }
 .four {
   grid-area: four;
