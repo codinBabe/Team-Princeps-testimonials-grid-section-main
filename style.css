@@ -11,7 +11,9 @@ body{
   --very-dark-blackish-blue: hsl(219, 29%, 14%);
   --White: hsl(0, 0%, 100%);
   --Light-gray: hsl(0, 0%, 81%);
+  --medium-gray: hsl(0, 0%, 70.2%);
   --Light-grayish-blue: hsl(210, 46%, 95%);
+  --dark-gray: #898C8D;
 }
 /* main styling and grid layout */
 .container{
@@ -33,6 +35,48 @@ body{
 }
 .three {
   grid-area: three;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: var(--White);
+  border-radius: 10px;
+  padding: 25px 20px;
+  width: 90%;
+}
+.three .three-info {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+}
+.three .three-info .three-img {
+  width: 40px;
+}
+.three .three-info .three-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.three .three-info .three-titles {
+  height: 20px;
+  letter-spacing: 1;
+  line-height: 1;
+}
+.three .three-info .three-titles .three-title1 {
+  color: var(--dark-gray);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+.three .three-info .three-titles .three-title2 {
+  color: var(--Light-gray);
+  font-size: 14px;
+  margin: 0;
+}
+.three .three-text .three-text1 {
+  color: var(--dark-gray);
+  font-size: 17px;
+}
+.three .three-text .three-text2 {
+  color: var(--medium-gray);
+  font-size: 15px;
 }
 .four {
   grid-area: four;
