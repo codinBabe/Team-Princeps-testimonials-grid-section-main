@@ -11,12 +11,18 @@ body {
 
 .container {
     margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
     display: grid;
-    max-width: 1024px;
-    grid-template-areas: 'one one one two five' 'three three four four five';
+    grid-template-areas:
+    'one one two five'
+    'three four four five';
+    grid-auto-columns: 1fr;
     gap: 2em;
-    padding: 8em;
+    padding: 2em;
 }
+
+/* KAFAYAT/SONIA SECTION ONE STYLING */
 
 .one {
     grid-area: one;
@@ -49,7 +55,11 @@ body {
 }
 
 .two {
-    grid-area: two;
+  grid-area: two;
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+  border-radius: 8px;
+  padding:1em 2em;
 }
 
 .three {
@@ -63,8 +73,32 @@ body {
 .five {
     grid-area: five;
 }
-
-
+/* SECTION TWO STYLING */
+.heading{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.two h1{
+    margin-bottom: 0;
+    font-size: .8125rem;
+    font-weight: 600;
+}
+.two h2{
+    margin-top: 0;
+    font-size: .8125rem;
+    opacity: 50%;
+}
+.two img{
+    border-radius: 50%;
+}
+.two p b{
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+.two p q{
+    opacity: 70%;
+}
 /* Attribution */
 
 .attribution {
