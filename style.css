@@ -5,8 +5,16 @@ body {
     background-color: hsl(210, 46%, 95%);
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-
-
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --medium-gray: hsl(0, 0%, 70.2%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+    --dark-gray: #898C8D;
+  }
 /* main styling and grid layout */
 
 .container {
@@ -92,13 +100,57 @@ body {
   color: darkgrey;
   font-size: 10px;
 }
-
+/* SECTION FOUR MENNA */
 .four {
     grid-area: four;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: var(--very-dark-blackish-blue);
+    color: var(--White);
+    border-radius: 10px;
+    padding: 5% 10%;
+    width: 80%;
 }
-
+.four .four-header {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    margin-bottom: -5px;
+}
+.four .four-header .four-header-img {
+    width: 40px;
+}
+.four .four-header .four-header-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+.four .four-header .four-header-titles {
+    line-height: 1;
+}
+.four .four-header .four-header-titles .four-header-title1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: -11px 0;
+    letter-spacing: 1;
+    color: var(--Light-grayish-blue);
+}
+.four .four-header .four-header-titles .four-header-title2 {
+    font-size: 13px;
+    letter-spacing: 1;
+    color: var(--dark-gray);
+}
+.four .four-text .four-text1 {
+    font-size: 21px;
+    color: var(--Light-grayish-blue);
+}
+.four .four-text .four-text2 {
+    font-size: 13px;
+    color: var(--Light-gray);
+}
+/* SECTION FIVE */
 .five {
     grid-area: five;
+    
 }
 /* SECTION TWO STYLING */
 .heading{
